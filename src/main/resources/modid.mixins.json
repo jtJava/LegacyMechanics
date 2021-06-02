@@ -6,7 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "SwingFixMixin",
+    "CooldownRenderFixMixin"
   ],
   "injectors": {
     "defaultRequire": 1
