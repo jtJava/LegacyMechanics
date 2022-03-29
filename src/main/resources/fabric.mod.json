@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "swingfix",
-  "version": "1.16.5",
+  "version": "${version}",
 
   "name": "SwingFix Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "me.jaden.legacymod.LegacyMod"
     ]
   },
   "mixins": [
@@ -27,9 +27,9 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.7.4",
+    "fabricloader": ">=0.13.3",
     "fabric": "*",
-    "minecraft": "1.16.x"
+    "minecraft": "1.18.2"
   },
   "suggests": {
     "another-mod": "*"
