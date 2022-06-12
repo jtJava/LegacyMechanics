@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "SwingFix Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "",
   "authors": [
     "Iowa"
   ],
@@ -29,7 +29,7 @@
   "depends": {
     "fabricloader": ">=0.13.3",
     "fabric": "*",
-    "minecraft": "1.18.2"
+    "minecraft": "1.19"
   },
   "suggests": {
     "another-mod": "*"
