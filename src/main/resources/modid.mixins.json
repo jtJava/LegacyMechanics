@@ -6,7 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "CooldownRenderFixMixin"
+    "CooldownRenderFixMixin",
+    "ArmFixMixin"
   ],
   "injectors": {
     "defaultRequire": 1
