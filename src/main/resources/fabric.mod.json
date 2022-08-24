@@ -1,31 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "swingfix",
+  "id": "legacymechanics",
   "version": "${version}",
-
-  "name": "SwingFix Mod",
+  "name": "Legacy Mechanics",
   "description": "",
   "authors": [
     "Iowa"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://discord.gg/U4HyP7xM",
+    "sources": "https://github.com/jtJava/LegacyMechanics"
   },
-
   "license": "CC0-1.0",
   "icon": "assets/modid/icon.png",
-
   "environment": "*",
   "entrypoints": {
     "main": [
-      "me.jaden.legacymod.LegacyMod"
+      "me.jaden.legacymechanics.LegacyMechanics"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "mechanics.mixins.json",
+    "features.mixins.json",
+    "accesors.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.13.3",
     "fabric": "*",

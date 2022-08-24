@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.jaden.legacymechanics.mixin.features",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "ChatFadeMixin",
+    "SwingFixMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
