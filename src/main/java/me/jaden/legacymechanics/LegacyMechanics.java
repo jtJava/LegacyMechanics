@@ -25,8 +25,7 @@ public class LegacyMechanics implements ModInitializer {
         }
 
         @SuppressWarnings("ConstantConditions")
-        ChannelHandler viaDecoder = ((ClientConnectionAccessor) MinecraftClient.getInstance().getNetworkHandler()
-                .getConnection()).getChannel().pipeline().get(CommonTransformer.HANDLER_DECODER_NAME);
+        ChannelHandler viaDecoder = ((ClientConnectionAccessor) MinecraftClient.getInstance().getNetworkHandler().getConnection()).getChannel().pipeline().get(CommonTransformer.HANDLER_DECODER_NAME);
 
         if (!(viaDecoder instanceof FabricDecodeHandler)) {
             return false;

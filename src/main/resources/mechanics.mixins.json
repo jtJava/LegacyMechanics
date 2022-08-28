@@ -13,7 +13,9 @@
     "IdlePacketMixin",
     "InertiaFixMixin",
     "ReachFixMixin",
-    "SprintMixin"
+    "SprintMixin",
+    "LadderMixin",
+    "MovementMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -25,7 +25,8 @@ public abstract class SprintMixin extends PlayerEntity {
         if (LegacyMechanics.getInstance().isLegacyActive()) {
             if (instance.isBlocking()
                     || instance.isUsingItem()
-                    || instance.isSneaking()) {
+                    || instance.isSneaking()
+                    || instance.isSubmergedInWater()) {
                 instance.setSprinting(false);
             }
         }

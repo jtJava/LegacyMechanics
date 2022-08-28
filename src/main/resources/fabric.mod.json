@@ -22,7 +22,7 @@
   "mixins": [
     "mechanics.mixins.json",
     "features.mixins.json",
-    "accesors.mixins.json"
+    "accessors.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.13.3",
